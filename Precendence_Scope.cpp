@@ -15,7 +15,14 @@ int main(){
 
     // piroblem:-
     int a=4;
-    cout<<++a + a++ <<endl;
+    cout<< ++a + a++<<endl;
+    a=4;
+    cout<< ++a + ++a<<endl;
+    a=4;
+    cout<< a++ + ++a<<endl;
+    a=4;
+    cout<< a++ + a++<<endl;
+    
 
     //------------------------
     // Scope:- is the area where variable can be access or use
